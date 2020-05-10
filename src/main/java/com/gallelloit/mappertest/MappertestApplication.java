@@ -9,7 +9,7 @@ public class MappertestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MappertestApplication.class, args);
 		
-		Car c = new Car("Seat");
+		Car c = new Car("Volkswagen");
 		
 		CarDto cdto = CarMapper.INSTANCE.carToCarDto(c);
 		

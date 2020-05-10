@@ -2,18 +2,18 @@ package com.gallelloit.mappertest;
 
 public class Car {
 	
-	private String marca;
+	private String model;
 
 	public Car(String marca) {
-		this.marca = marca;
+		this.model = marca;
 	}
 
 	public String getMarca() {
-		return marca;
+		return model;
 	}
 
 	public void setMarca(String marca) {
-		this.marca = marca;
+		this.model = marca;
 	}
 	
 }

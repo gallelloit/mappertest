@@ -2,18 +2,18 @@ package com.gallelloit.mappertest;
 
 public class CarDto {
 
-	private String laMarca;
+	private String theModel;
 
 	public CarDto(String laMarca) {
-		this.laMarca = laMarca;
+		this.theModel = laMarca;
 	}
 
 	public String getLaMarca() {
-		return laMarca;
+		return theModel;
 	}
 
 	public void setLaMarca(String laMarca) {
-		this.laMarca = laMarca;
+		this.theModel = laMarca;
 	}
 	
 }

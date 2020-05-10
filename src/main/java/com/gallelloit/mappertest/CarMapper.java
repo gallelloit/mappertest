@@ -9,6 +9,6 @@ public interface CarMapper {
  
     CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
  
-    @Mapping(source = "marca", target = "laMarca")
+    @Mapping(source = "model", target = "theModel")
     CarDto carToCarDto(Car car);
 }
